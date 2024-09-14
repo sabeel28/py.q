@@ -1,0 +1,18 @@
+a=5
+b=2
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b) #in python division return float value(decimal value)
+print(a%b) #to calculate remainder
+print(a**b) # a^b: a raised to power b
+print(a//b) #after division gives whole number(does not count decimal)
+--output--
+7
+3
+10
+2.5
+1
+25
+2
