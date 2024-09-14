@@ -1,0 +1,12 @@
+age=21
+name="jason"
+price=28.22
+
+print(type(age))
+print(type(name))
+print(type(price))
+---output--
+
+<class 'int'> #integer type
+<class 'str'> #string type
+<class 'float'> #floating type
