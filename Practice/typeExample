@@ -1,0 +1,10 @@
+age=21
+name="jason"
+old=False
+a=None
+print(type(a))
+print(type(old))
+
+---output--
+<class 'NoneType'>
+<class 'bool'>
