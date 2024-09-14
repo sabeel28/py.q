@@ -1,0 +1,7 @@
+#type casting
+
+a="2"
+b=4.345
+c=int(a) #convert str type a to int type
+sum=b+c 
+print(sum)
