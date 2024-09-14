@@ -5,3 +5,9 @@ b=4.345
 c=int(a) #convert str type a to int type and stores in c
 sum=b+c 
 print(sum)
+--------------
+a="2"
+b=4.345
+a=int(a)
+sum=a+b 
+print(sum)
