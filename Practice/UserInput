@@ -1,0 +1,7 @@
+#input from the user
+val=input("enter some value: ")
+print(type(val))
+
+#type casting
+new=int(val)
+print(type(new))
