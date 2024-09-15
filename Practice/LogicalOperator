@@ -10,3 +10,4 @@ print(False or False)-->False
 a=30
 b=10
 print(not(a>b))-->False
+print(a>=b)-->True
