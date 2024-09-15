@@ -1,0 +1,3 @@
+str="Python"
+print(len(str)) #6
+print(str[0:4]) #Pyth
