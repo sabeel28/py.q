@@ -1,0 +1,2 @@
+str="World.\nThis is python" #\n-->next Line,\t-->tab
+print(str)
