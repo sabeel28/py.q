@@ -1,0 +1,22 @@
+str="This is Python"
+print(str.endswith("on")) #True
+--------------------------
+str="this is Python"
+print(str.capitalize()) # This is python
+---------------------------
+str="this is Python"
+print(str.replace("this","it")) #it is Python
+print(str.replace("o","e")) #this is Pythen
+----------------------------
+str="this is Python"
+print(str.find("o")) #12(o is found at index value 12)
+
+str="this is Python"
+print(str.find("a")) #-1(a is not in the string)
+-----------------------------
+str="this is Python"
+print(str.count("t")) #2(because t comes 2 times)
+------------------------------
+str="this is Python"
+print(str.split()) #['this', 'is', 'Python']
+-----------------------------
