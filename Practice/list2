@@ -1,7 +1,7 @@
 student=["Sam",45,23.45,"Delhi"]
 print(student)
 print(student[0])
-student[0]="Steve"
+student[0]="Steve" #BECAUSE "LIST" ARE MUTABLE
 print(student)
 print(student[0])
 
