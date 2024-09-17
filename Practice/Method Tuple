@@ -1,0 +1,2 @@
+tup=(1,2,3,4)
+print(tup.index(2)) #finding at what index does element(2) comes first in tuple. ANS=1 (index Value)
