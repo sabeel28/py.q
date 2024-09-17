@@ -1,12 +1,13 @@
 student=["Sam",45,23.45,"Delhi"]
 print(student)
-print(student[0])
+print(student[0]) #Sam
 student[0]="Steve" #BECAUSE "LIST" ARE MUTABLE
 print(student)
-print(student[0])
-
+print(student[0]) #Steve
+print(len(student)) #4
 ---output---
 ['Sam', 45, 23.45, 'Delhi']
 Sam
 ['Steve', 45, 23.45, 'Delhi']
 Steve
+4
