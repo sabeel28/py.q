@@ -1,0 +1,12 @@
+marks = [87, 64, 33, 95, 76]
+print(marks[1:4])
+print(marks[:4]) #starting index missing
+print(marks[1:]) #ending index missing
+
+print(marks[-3:-2]) #-ve slicing
+
+--output--
+[64, 33, 95]
+[87, 64, 33, 95]
+[64, 33, 95, 76]
+[33]
