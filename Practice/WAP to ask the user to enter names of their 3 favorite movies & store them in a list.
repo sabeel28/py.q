@@ -1,0 +1,18 @@
+#WAP to ask the user to enter names of their 3 favorite movies & store them in a list.
+
+movies=[]
+a=str(input("Enter the 1st movie name: "))
+b=str(input("Enter the 2nd movie name: "))
+c=str(input("Enter the 3rd movie name: "))
+
+movies.append(a)
+movies.append(b)
+movies.append(c)
+
+print(movies)
+
+---output--
+Enter the 1st movie name: ^[[DL     Logan
+Enter the 2nd movie name: Da  Sultan
+Enter the 3rd movie name: Sector 36
+['Logan', 'Sultan', 'Sector 36']
