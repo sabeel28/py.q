@@ -16,3 +16,30 @@ Enter the 1st movie name: ^[[DL     Logan
 Enter the 2nd movie name: Da  Sultan
 Enter the 3rd movie name: Sector 36
 ['Logan', 'Sultan', 'Sector 36']
+#--------------------------------------------------------
+movies=[]
+mov=str(input("Enter the 1st movie name: "))
+movies.append(mov)
+
+mov=str(input("Enter the 2nd movie name: "))
+movies.append(mov)
+
+mov=str(input("Enter the 3rd movie name: "))
+movies.append(mov)
+
+print(movies)
+
+#-----------------------------------------------------------
+a=str(input("Enter the 1st movie name: "))
+b=str(input("Enter the 2nd movie name: "))
+c=str(input("Enter the 3rd movie name: "))
+
+List=[a,b,c]
+print(List)
+print(type(List))
+#---------------------------------------------------------
+movies=[] #list
+movies.append(str(input("Enter the 1st movie: ")))
+movies.append(str(input("Enter the 2st movie: ")))
+movies.append(str(input("Enter the 3st movie: ")))
+print(movies)
