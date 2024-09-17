@@ -15,4 +15,3 @@ print(marks[1:4])
 [34.21, 23.9, 12.1]
 
 #list are mutable 
-# imp:strings are immutable
