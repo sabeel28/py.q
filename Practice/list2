@@ -1,0 +1,12 @@
+student=["Sam",45,23.45,"Delhi"]
+print(student)
+print(student[0])
+student[0]="Steve"
+print(student)
+print(student[0])
+
+---output---
+['Sam', 45, 23.45, 'Delhi']
+Sam
+['Steve', 45, 23.45, 'Delhi']
+Steve
