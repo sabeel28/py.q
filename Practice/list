@@ -1,0 +1,17 @@
+marks=[23.22,34.21,23.90,12.1,66.03,34.4]
+print(marks)
+print(len(marks))
+print(type(marks))
+print(marks[0])
+print(marks[1])
+print(marks[1:4])
+
+---output---
+[23.22, 34.21, 23.9, 12.1, 66.03, 34.4]
+6
+<class 'list'>
+23.22
+34.21
+[34.21, 23.9, 12.1]
+
+#list are mutable 
