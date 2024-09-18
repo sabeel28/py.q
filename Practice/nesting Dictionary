@@ -1,0 +1,18 @@
+#nested-dictionary in python 
+
+student={
+    'name':'sam',
+    'age':22,
+    'score':{
+        'phy':22,
+        'chem':43,
+        'math':50
+    }
+}
+print(student)
+print(student['score'])
+print(student['score']['phy'])
+---output-----
+{'name': 'sam', 'age': 22, 'score': {'phy': 22, 'chem': 43, 'math': 50}}
+{'phy': 22, 'chem': 43, 'math': 50}
+22
