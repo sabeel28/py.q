@@ -4,3 +4,10 @@
 
 grade=('C','D','A','A','B','B','A')
 print(grade.count('A'))
+
+grade=['C','D','A','A','B','B','A'] #list
+grade.sort()
+print(grade) #ascending order
+
+grade.sort(reverse=True)
+print(grade) #descending order
