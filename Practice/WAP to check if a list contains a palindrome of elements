@@ -8,3 +8,11 @@ if(list1_copy==list1):
     print("palindrome")
 else:
     print("not palindrome")
+----------------------------------------
+list1=['a','s','a','m']
+list1_copy=list1.copy()
+list1.reverse()
+if(list1_copy==list1):
+    print("palindrome")
+else:
+    print("not palindrome") 
