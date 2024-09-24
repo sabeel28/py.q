@@ -13,7 +13,7 @@ print("grade of the student:",grade)
 # output
 # Enter the marks of student: 78
 # grade of the student: C
---------------------------
+---------------------------
 # age=int(input())
 # if(age>=18):
 #     print("Can vote")
