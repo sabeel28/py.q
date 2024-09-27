@@ -1,0 +1,10 @@
+# each values in set is unique and immutable(27.09.24)
+# set is unordered 
+# ignores duplicate values
+collection={1,2,3,4,5}
+print(collection) #{1, 2, 3, 4, 5} 
+print(type(collection)) #<class 'set'>
+# collection={1,2,3,4,5,5,5,"world","world"}
+# print(collection) #{1, 2, 3, 4, 5,'world'} 
+# print(type(collection)) #<class 'set'>
+print(len(collection)) #6->counts the number of elements(while counting ignors the duplicate value or repeating values)
