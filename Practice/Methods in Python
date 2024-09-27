@@ -1,0 +1,26 @@
+student={
+    'name':'sam',
+    'age':22,
+    'score':{
+        'phy':22,
+        'chem':43,
+        'math':50
+    }
+}
+print(student.keys()) #dict_keys(['name', 'age', 'score'])
+print(list(student.keys())) #['name', 'age', 'score']
+print(len(student)) #3
+print(len(list(student.keys()))) #3
+print(student.values()) #dict_values(['sam', 22, {'phy': 22, 'chem': 43, 'math': 50}])
+print(list(student.values())) #['sam', 22, {'phy': 22, 'chem': 43, 'math': 50}]
+print(student.items()) #dict_items([('name', 'sam'), ('age', 22), ('score', {'phy': 22, 'chem': 43, 'math': 50})])
+print(list(student.items())) #[('name', 'sam'), ('age', 22), ('score', {'phy': 22, 'chem': 43, 'math': 50})]
+pairs=list(student.items()) #('name', 'sam')
+print(student.get("name")) #sam
+# print(student["name2"])  #error
+# print(student.get("name1")) #None
+student.update({"city" : "Delhi"})
+print(student) #{'name': 'sam', 'age': 22, 'score': {'phy': 22, 'chem': 43, 'math': 50}, 'city': 'Delhi'}
+# new_dict={"city":"Delhi"}
+# student.update(new_dict)
+# print(student)
