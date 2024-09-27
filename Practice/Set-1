@@ -1,4 +1,5 @@
 # each values in set is unique and immutable(27.09.24)
+# remeber:set is mutable but its elements are immutable
 # set is unordered 
 # ignores duplicate values
 collection={1,2,3,4,5}
