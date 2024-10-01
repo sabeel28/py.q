@@ -1,1 +1,69 @@
-
+# for loops are used for sequential traversal
+-----------------------------
+nums=[1,2,3,4,5]
+for val in nums:
+    print(val)
+--output--
+1
+2
+3
+4
+5
+----------------------------
+veggies=["potato","tomato","onion","cucumber"]
+for val in veggies:
+    print(val)
+--output--
+potato
+tomato
+onion
+cucumber
+-------------------------------
+tup=(1,2,3,4,5,6,7,5,33)
+for val in tup:
+    print(val)
+print(type(tup))
+--output--
+1
+2
+3
+4
+5
+6
+7
+5
+33
+<class 'tuple'>
+------------------------------------
+str="This is python"
+for char in str:
+    print(char)
+--output--
+T
+h
+i
+s
+ 
+i
+s
+ 
+p
+y
+t
+h
+o
+n
+----------------------------------------------
+str="This is python"
+for char in str:
+    print(char)
+    if(char=="i"):
+        print("i found")
+        break
+else:
+    print("end")
+--output--
+T
+h
+i
+i found
