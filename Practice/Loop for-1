@@ -34,7 +34,7 @@ print(type(tup))
 5
 33
 <class 'tuple'>
-------------------------------------
+-------------------------------------
 str="This is python"
 for char in str:
     print(char)
@@ -54,7 +54,7 @@ h
 o
 n
 ----------------------------------------------
-str="This is python"
+str="This is python
 for char in str:
     print(char)
     if(char=="i"):
