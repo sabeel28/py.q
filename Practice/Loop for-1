@@ -67,3 +67,21 @@ T
 h
 i
 i found
+-------------------------------------------------------
+Print the elements of the following list using a loop:
+nums=[1,4,9,16,25,36,49,64,81,100]
+print(type(nums))
+for el in nums:
+    print(el)
+--output--
+<class 'list'>
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
