@@ -10,3 +10,25 @@ cal_sum(2,10)
 7
 29
 12
+-------------------------------
+#function defintion
+def calc_sum(a,b): #parametres
+    return a+b 
+
+sum=calc_sum(2,3) #function call;arguments
+print(sum)
+-------------------------------
+def print_hello():
+    print("hello")
+print_hello()
+print_hello()
+print_hello()
+print_hello()
+print_hello()
+--output--
+hello
+hello
+hello
+hello
+hello
+--------------------------------
