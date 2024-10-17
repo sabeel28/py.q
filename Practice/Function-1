@@ -1,3 +1,4 @@
+#Block of statements that perform a specific task.
 def cal_sum(a,b):
     sum=a+b  
     print(sum)
@@ -12,10 +13,10 @@ cal_sum(2,10)
 12
 -------------------------------
 #function defintion
-def calc_sum(a,b): #parametres
+def calc_sum(a,b): #parametres-->a &b
     return a+b 
 
-sum=calc_sum(2,3) #function call;arguments
+sum=calc_sum(2,3) #function call;arguments-->values i.e 2 & 3
 print(sum)
 -------------------------------
 def print_hello():
