@@ -1,0 +1,57 @@
+#build in functions:
+print( )
+len( )
+type( )
+range( )
+-----------------------------------
+def cal_prod(a,b):
+    print(a*b)
+    return a*b
+cal_prod()
+-output-
+Traceback (most recent call last):
+  File "/home/main.py", line 4, in <module>
+    cal_prod()
+TypeError: cal_prod() missing 2 required positional arguments: 'a' and 'b'
+---
+def cal_prod(a=1,b=1): #default values means when there is no argumnet is passed
+    print(a*b)
+    return a*b
+cal_prod() #1
+--------
+def cal_prod(a,b=1):
+    print(a*b)
+    return a*b
+cal_prod(2) #output=2
+-------
+def cal_prod(a,b):
+    print(a*b)
+    return a*b
+cal_prod(2,3) #6
+---------------imp----------
+sample=[]
+dictionary={
+    
+}
+collection={"apple"}
+nums=()
+print(type(sample))
+print(type(dictionary))
+print(type(collection))
+print(type(nums))
+--output--
+<class 'list'>
+<class 'dict'>
+<class 'set'>
+<class 'tuple'>
+----------------------------------------
+#WAF to print the length of a list. ( list is the parameter)
+cities=["delhi","bombay","kashmir","hyderabad","bangalore"]
+superheroes=["balveer","shaktiman","bheem","laddu mutya"]
+
+def print_len(list):
+    print(len(list))
+print_len(cities) #5
+print_len(superheroes) #4
+------------------------------------------
+#WAF to print the elements of a list in a single line. ( list is the parameter)
